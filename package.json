@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-mix-starter",
+  "version": "1.0.0",
+  "description": "A starter project for Taliwind CSS with Laravel Mix.",
+  "main": "public/js/app.js",
+  "scripts": {
+    "build": "mix",
+    "watch": "mix watch",
+    "prod": "mix --production",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "Fahim Anzam Dip",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "browser-sync": "^2.27.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "gh-pages": "^3.2.3",
+    "laravel-mix": "^6.0.25",
+    "postcss": "^8.3.5"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
+    "tailwindcss": "^2.2.4"
+  }
+}
