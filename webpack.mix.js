@@ -6,6 +6,7 @@ mix
     .css("resources/css/app.css", "public/css", [
         tailwindcss,
     ])
+    .copy('resources/views/*.html', 'public')
     .browserSync({
         server: 'public',
         files: ['public/**/*.html', 'public/**/*.css', 'public/**/*.js']
